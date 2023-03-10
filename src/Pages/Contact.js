@@ -21,7 +21,7 @@ const Contact = () => {
           <div className="row">
             <div className="col-lg-12">
               <h1>Contact Us</h1>
-              <Link to="/index">Home</Link> <span>|</span>{" "}
+              <Link to="/">Home</Link> <span>|</span>{" "}
               <Link to="/contact">Contact Us</Link>
             </div>
           </div>

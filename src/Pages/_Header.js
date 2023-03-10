@@ -37,10 +37,10 @@ const HeaderLayout = () => {
             <div className="row">
               <div className="col-lg-9 d-md-flex">
                 <h6 className="mr-3">
-                  <a className="fa fa-mobile mr-2 font-family" href="tel:98796 67003"> call us now! 98796 67003</a>
+                  <a className="fa fa-mobile mr-2 font-family" href="tel:98796 67003" style={styling_text}> call us now! 98796 67003</a>
                 </h6>
                 <h6 className="mr-3">
-                  <a className="fa fa-envelope-o mr-2 font-family" href="mailto:info@jhanvinursinghome.com" >info@jhanvinursinghome.com</a>
+                  <a className="fa fa-envelope-o mr-2 font-family" href="mailto:info@jhanvinursinghome.com" style={styling_text} >info@jhanvinursinghome.com</a>
                 </h6>
                 <h6>
                 <b><p style={styling_text} className="font-family">Jhanvi Nursing Home Come to Expect the Best in Town.</p></b>

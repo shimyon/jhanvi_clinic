@@ -26,7 +26,7 @@ import "./assests/css/jquery.datetimepicker.min.css";
 
 function App() {
   return (
-    <div className="App">
+    <div className="App overflow">
 
       <BrowserRouter>
         <Routes>
