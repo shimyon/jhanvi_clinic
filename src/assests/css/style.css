@@ -160,11 +160,13 @@ textarea:focus {
 #nav-menu-container {
   margin: 0;
 }
+/* 
 @media (max-width: 960px) {
   #nav-menu-container {
     display: none;
   }
-}
+} 
+*/
 .nav-menu a {
   padding: 7px 10px;
   text-decoration: none;
@@ -222,9 +224,9 @@ textarea:focus {
   #mobile-nav-toggle {
     display: inline;
   }
-  #nav-menu-container {
+  /* #nav-menu-container {
     display: none;
-  }
+  } */
 }
 #mobile-nav {
   position: fixed;
@@ -318,6 +320,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   position: relative;
   top: 2px; */
 }
+/* 
 @media (min-width: 768px) and (max-width: 991.98px) {
   .header-top {
     display: none;
@@ -332,7 +335,8 @@ body.mobile-nav-active #mobile-nav-toggle {
   .header-top {
     display: none;
   }
-}
+} 
+*/
 .header-top .social-links ul {
   float: right;
   margin-top: 5px;

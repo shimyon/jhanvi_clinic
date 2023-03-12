@@ -37,7 +37,7 @@ const HeaderLayout = () => {
             <div className="row">
               <div className="col-lg-9 d-md-flex">
                 <h6 className="mr-3">
-                  <a className="fa fa-mobile mr-2 font-family" href="tel:98796 67003" style={styling_text}> call us now! 98796 67003</a>
+                  <a className="fa fa-mobile mr-2 font-family" href="tel:+91 98796 67003" style={styling_text}> call us now! 98796 67003</a>
                 </h6>
                 <h6 className="mr-3">
                   <a className="fa fa-envelope-o mr-2 font-family" href="mailto:info@jhanvinursinghome.com" style={styling_text} >info@jhanvinursinghome.com</a>
@@ -94,7 +94,7 @@ const HeaderLayout = () => {
                   </li>
 
                   <li>
-                    <Link to="/gallary">Gallary</Link>
+                    <Link to="/gallery">Gallery</Link>
                   </li>
                  
                   <li>

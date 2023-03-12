@@ -31,14 +31,14 @@ const FacilitiesPart = () => {
   return (
     <>
       <section>
-        <div className="row" style={{ marginLeft: "276px", Text: "center" }}>
-          <div className="col-lg-4 col-md-4">
+        <div className="row">
+          <div className="offset-2 col-lg-4 offset-lg-3 col-md-4 col-sm-12">
             <div className="serv-sec font-family">
               <img className="banner-img" src={Emergencyimg} alt="" />
               <h3>24x7 Emergency Services</h3>
             </div>
           </div>
-          <div className="col-lg-4 col-md-4">
+          <div className="col-lg-4 col-md-4 col-sm-12 offset-2 offset-md-0 offset-sm-2">
             <div className="serv-sec font-family">
               <img className="banner-img" src={dentalimg} alt="" />
               <h3>Diabities Care Center</h3>
