@@ -65,10 +65,10 @@ const Gallary = () => {
         </div>
       </section>
       <section>
-        <ul class="nav nav-tabs" id="gallerybutton" role="tablist">
-          <li class="nav-item" role="presentation">
+        <ul className="nav nav-tabs" id="gallerybutton" role="tablist">
+          <li className="nav-item" role="presentation">
             <button
-              class="nav-link active"
+              className="nav-link active"
               id="Departments-tab"
               data-bs-toggle="tab"
               data-bs-target="#Departments"
@@ -81,9 +81,9 @@ const Gallary = () => {
               All Departments
             </button>
           </li>
-          <li class="nav-item" role="presentation">
+          <li className="nav-item" role="presentation">
             <button
-              class="nav-link"
+              className="nav-link"
               id="GeneralWard-tab"
               data-bs-toggle="tab"
               data-bs-target="#GeneralWard"
@@ -96,9 +96,9 @@ const Gallary = () => {
               General Ward
             </button>
           </li>
-          <li class="nav-item" role="presentation">
+          <li className="nav-item" role="presentation">
             <button
-              class="nav-link"
+              className="nav-link"
               id="semisroom-tab"
               data-bs-toggle="tab"
               data-bs-target="#semisroom"
@@ -111,9 +111,9 @@ const Gallary = () => {
               Semi Special Room
             </button>
           </li>
-          <li class="nav-item" role="presentation">
+          <li className="nav-item" role="presentation">
             <button
-              class="nav-link"
+              className="nav-link"
               id="specialroom-tab"
               data-bs-toggle="tab"
               data-bs-target="#specialroom"
@@ -126,9 +126,9 @@ const Gallary = () => {
               Special Room
             </button>
           </li>
-          <li class="nav-item" role="presentation">
+          <li className="nav-item" role="presentation">
             <button
-              class="nav-link"
+              className="nav-link"
               id="ICU-tab"
               data-bs-toggle="tab"
               data-bs-target="#ICU"
@@ -141,9 +141,24 @@ const Gallary = () => {
               ICU
             </button>
           </li>
-          <li class="nav-item" role="presentation">
+          <li className="nav-item" role="presentation">
             <button
-              class="nav-link"
+              className="nav-link"
+              id="OT-tab"
+              data-bs-toggle="tab"
+              data-bs-target="#OT"
+              type="button"
+              role="tab"
+              aria-controls="OT"
+              aria-selected="false"
+              onClick={(e) => setTabCall(e, "ot")}
+            >
+              OT
+            </button>
+          </li>
+          <li className="nav-item" role="presentation">
+            <button
+              className="nav-link"
               id="Reception-tab"
               data-bs-toggle="tab"
               data-bs-target="#Reception"
@@ -156,9 +171,9 @@ const Gallary = () => {
               Reception Area
             </button>
           </li>
-          <li class="nav-item" role="presentation">
+          <li className="nav-item" role="presentation">
             <button
-              class="nav-link"
+              className="nav-link"
               id="Waiting-tab"
               data-bs-toggle="tab"
               data-bs-target="#Waiting"

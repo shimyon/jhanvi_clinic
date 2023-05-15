@@ -7,6 +7,7 @@ import slide2 from "./../assests/images/slides/slide2.jpg";
 import slide3 from "./../assests/images/slides/slide3.jpg";
 
 import FacilitiesPart from "./_facilities";
+import GalleryCarosel from "./GalleryCarosel";
 
 
 class Home extends Component {
@@ -24,7 +25,7 @@ class Home extends Component {
                 data-bgfit="cover"
                 data-bgrepeat="no-repeat"
                 width="100%"
-                height="450px"
+                className="carosulImg"
               />
             </Carousel.Item>
             <Carousel.Item>
@@ -35,7 +36,7 @@ class Home extends Component {
                 data-bgfit="cover"
                 data-bgrepeat="no-repeat"
                 width="100%"
-                height="450px"
+                className="carosulImg"
               />
             </Carousel.Item>
             <Carousel.Item>
@@ -46,12 +47,12 @@ class Home extends Component {
                 data-bgfit="cover"
                 data-bgrepeat="no-repeat"
                 width="100%"
-                height="450px"
+                className="carosulImg"
               />
             </Carousel.Item>
           </Carousel>
         </section>
-        <section>
+        <section style={{marginTop:"10px"}}>
           <div className="row">
             <div className="col-lg-5 align-self-center">
               <div className="welcome-img">
@@ -93,7 +94,7 @@ class Home extends Component {
 
         {/* Patient Area Starts */}
         {/* Specialist Area Starts */}
-
+        <GalleryCarosel />
         <a>
           <section
             className="hotline-area text-center section-padding"

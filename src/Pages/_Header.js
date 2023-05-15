@@ -37,7 +37,7 @@ const HeaderLayout = () => {
             <div className="row">
               <div className="col-lg-9 d-md-flex">
                 <h6 className="mr-3">
-                  <a className="fa fa-mobile mr-2 font-family" href="tel:+91 98796 67003" style={styling_text}> call us now! 98796 67003</a>
+                  <a className="fa fa-mobile mr-2 font-family" href="tel:+91 98796 67003" style={styling_text}> call us now! 97146 53003</a>
                 </h6>
                 <h6 className="mr-3">
                   <a className="fa fa-envelope-o mr-2 font-family" href="mailto:info@jhanvinursinghome.com" style={styling_text} >info@jhanvinursinghome.com</a>
@@ -51,37 +51,17 @@ const HeaderLayout = () => {
                 <div className="social-links">
                   <ul>
                     <li>
-                      <a href="https://www.facebook.com/pages/Jhanvi-Nursing-Home/1439597533004602">
+                      <a href="https://www.facebook.com/pages/Jhanvi-Nursing-Home/1439597533004602" style={{padding:"5px",borderRadius:"12px",border:"1px solid gray"}}>
                         <i className="fa fa-facebook" />
                       </a>
-                    </li>
-                    <li>
-                      <a href="#">
-                        <i className="fa fa-linkedin" />
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#">
-                        <i className="fa fa-twitter" />
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#">
-                        <i className="fa fa-instagram" />
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#">
-                        <i className="fa fa-vimeo" />
-                      </a>
-                    </li>
+                    </li>                  
                   </ul>
                 </div>
               </div>
               <div className="row">
               <div id="logo">
                 <a href="/">
-                  <img src={Logo} alt="" title />
+                  <img src={Logo} alt="" style={{width:"90%"}} />
                 </a>
               </div>
               <nav id="nav-menu-container">

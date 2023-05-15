@@ -4,7 +4,7 @@ import { Outlet, Link } from "react-router-dom";
 const Facilities = () => {
   return (
     <div>
-    <section className="banner-area other-page">
+    <section className="facility-area other-page">
         <div className="container">
           <div className="row">
             <div className="col-lg-12">

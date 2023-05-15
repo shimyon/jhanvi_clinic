@@ -42,10 +42,10 @@ const FooterLayout = () => {
                   </div>
                 </div>
               </div>
-              <div class="col-xl-5 col-lg-6">
-                <div class="single-widget-home mb-5 mb-lg-0">
-                  <h3 class="mb-4">newsletter</h3>
-                  <p class="mb-4">
+              <div className="col-xl-5 col-lg-6">
+                <div className="single-widget-home mb-5 mb-lg-0">
+                  <h3 className="mb-4">newsletter</h3>
+                  <p className="mb-4">
                     You can trust us. we only send promo offers, not a single.
                   </p>
                   <form action="#">
@@ -53,10 +53,10 @@ const FooterLayout = () => {
                       type="email"
                       placeholder="Your email here"
                       onfocus="this.placeholder = ''"
-                      onblur="this.placeholder = 'Your email here'"
+                      onBlur="this.placeholder = 'Your email here'"
                       required=""
                     />
-                    <button type="submit" class="template-btn">
+                    <button type="submit" className="template-btn">
                       subscribe now
                     </button>
                   </form>
@@ -76,9 +76,9 @@ const FooterLayout = () => {
                               <i className="fa fa-home" />
                             </div>
                             <div className="info-text">
-                              <h3>9, Balaji Park Sociey D mart road, </h3>
+                              <h3>Trupt, 2nd and 3rd Floor, </h3>
                               <p>
-                                Gurukul Char Rasta, Vadodara, Gujarat 390025
+                                Nr. D-Mart, Waghodia Ring Road, Vadodara 390019
                               </p>
                             </div>
                           </div>
@@ -90,7 +90,7 @@ const FooterLayout = () => {
                               <i className="fa fa-phone" />
                             </div>
                             <div className="info-text">
-                              <a href="telto:98796 67003">98796 67003</a>
+                              <a href="telto:98796 67003">90164 02891 / 97146 53003</a>
                             </div>
                           </div>
                         </li>
@@ -119,8 +119,7 @@ const FooterLayout = () => {
                 <span>
                   Copyright ©
                   <script>document.write(new Date().getFullYear());</script>2023
-                  All rights reserved | Made with{" "}
-                  <i class="fa fa-heart-o" aria-hidden="true"></i> by Colorlib
+                  All rights reserved 
                 </span>
               </div>
               <div className="col-lg-4 col-md-6">
@@ -129,21 +128,6 @@ const FooterLayout = () => {
                     <li>
                       <a href="#">
                         <i className="fa fa-facebook" />
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#">
-                        <i className="fa fa-twitter" />
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#">
-                        <i className="fa fa-dribbble" />
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#">
-                        <i className="fa fa-behance" />
                       </a>
                     </li>
                   </ul>

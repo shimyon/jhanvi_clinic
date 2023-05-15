@@ -22,7 +22,7 @@ import "./assests/css/bootstrap-4.1.3.min.css";
 // import './assests/css/font-awesome/css/font-awesome.min.css';
 
 // import "./assests/css/owl-carousel.min.css";
-import "./assests/css/jquery.datetimepicker.min.css";
+// import "./assests/css/jquery.datetimepicker.min.css";
 
 function App() {
   return (

@@ -1,18 +1,5 @@
-import React, { Component } from "react";
-import { Outlet, Link } from "react-router-dom";
-import ReactDOM from "react-dom";
-import icon from "./../assests/images/logo/favicon.png";
-import Logo from "./../assests/images/logo/logo.png";
-import banner1 from "./../assests/images/sub-banner.jpg";
-
-import feed1 from "./../assests/images/feed1.jpg";
-import feed2 from "./../assests/images/feed2.jpg";
-import feed3 from "./../assests/images/feed3.jpg";
-import feed4 from "./../assests/images/feed4.jpg";
-import feed5 from "./../assests/images/feed5.jpg";
-import feed6 from "./../assests/images/feed6.jpg";
-import feed7 from "./../assests/images/feed7.jpg";
-import feed8 from "./../assests/images/feed8.jpg";
+import React from "react";
+import { Link } from "react-router-dom";
 const Contact = () => {
   return (
     <div>
@@ -54,8 +41,8 @@ const Contact = () => {
                   <i className="fa fa-home" />
                 </div>
                 <div className="info-text">
-                  <h3>9, Balaji Park Sociey D mart road, </h3>
-                  <p>Gurukul Char Rasta, Vadodara, Gujarat 390025</p>
+                  <h3>Trupt, 2nd and 3rd Floor, </h3>
+                  <p>Nr D-Mart, Waghodia Ring Road, Vadodara 390019</p>
                 </div>
               </div>
               <div className="d-flex">
@@ -64,7 +51,7 @@ const Contact = () => {
                 </div>
                 <div className="info-text">
                   <a href="telto:98796 67003" style={{ color: "black" }}>
-                    98796 67003
+                  90164 02891 / 97146 53003
                   </a>
                   <p>Mon to Fri 9am to 6 pm</p>
                 </div>
