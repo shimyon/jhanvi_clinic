@@ -10,7 +10,6 @@ import img5 from "./../assests/images/gallery/ra/1.JPG";
 import img7 from "./../assests/images/gallery/semisp/1.JPG";
 import img8 from "./../assests/images/gallery/semisp/2.JPG";
 import img9 from "./../assests/images/gallery/sp/1.JPG";
-import img10 from "./../assests/images/gallery/sp/2.JPG";
 
 const GalleryCarosel = () => {
     var settings = {
@@ -106,12 +105,6 @@ const GalleryCarosel = () => {
                         <a href="gallery">
 
                             <img className="galleryImg" src={img9} alt="" />
-                        </a>
-                    </div>
-                    <div className="col-md-1 galleryBlock">
-                        <a href="gallery">
-
-                            <img className="galleryImg" src={img10} alt="" />
                         </a>
                     </div>
                 </Slider>
